@@ -36,6 +36,8 @@ public class sixsidedice extends AppCompatActivity {
         imageViewDice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                MediaPlayer tap= MediaPlayer.create(sixsidedice.this,R.raw.rolltap);
+                tap.start();
                 rollD6();
             }
         });
@@ -59,6 +61,8 @@ public class sixsidedice extends AppCompatActivity {
             mAccel = mAccel * 0.9f + delta;
             if (mAccel > 12)
             {
+                MediaPlayer shake= MediaPlayer.create(sixsidedice.this,R.raw.rollshake);
+                shake.start();
                 rollD6();
             }
         }
