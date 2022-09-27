@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, sixsidedice.class);
         startActivity(intent);
     }
+    public void TwentySided(View view) {
+        Intent intent = new Intent(this, twentysidedice.class);
+        startActivity(intent);
+    }
 }

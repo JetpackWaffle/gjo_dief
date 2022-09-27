@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">gjo_dief</string>
+    <string name="app_name">Dice Rolling</string>
     <string name="sixsidebutton">Six-sided dice</string>
+    <string name="twentysidebutton">Twenty-sided dice</string>
 </resources>
